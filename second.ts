@@ -20,8 +20,8 @@ combineValues = add;
 
 console.log(combineValues(8, 9));
 
-function addAndHandle(numa: number, numb: number, cb: (num: number) => void) {
-    const result = numa + numb;
+function addAndHandle(numA: number, numB: number, cb: (num: number) => void) {
+    const result = numA + numB;
     cb(result);
 }
 
