@@ -26,8 +26,8 @@ const person = {
 };
 
 
-var favoriteActivities: any[];
-favoriteActivities = ['Riding', 'Biking', 'Fencing'];
+var anyThing: any[];
+anyThing = ['Riding', 'Biking', 'Fencing'];
 
 console.log(person.name);
 
@@ -35,10 +35,11 @@ console.log("List of hobbies\n")
 for (const hobby of person.hobbies) {
     console.log(hobby);
 }
-console.log("\n\n");
+
 console.log("UpperCase Activities List: ");
 
 for (const activity of favoriteActivities) {
+    
     console.log(activity.toUpperCase());
 }
 
